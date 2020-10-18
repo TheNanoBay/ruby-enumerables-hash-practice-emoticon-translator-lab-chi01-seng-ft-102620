@@ -21,8 +21,8 @@ end
 
 
 
-def get_japanese_emoticon(file_path, english_emoticon)
-  library = load_library(file_path)
+def get_japanese_emoticon(file_path_two, english_emoticon)
+  library = load_library(file_path_two)
   var_response = nil 
   
   library.each do |emotion, name|
