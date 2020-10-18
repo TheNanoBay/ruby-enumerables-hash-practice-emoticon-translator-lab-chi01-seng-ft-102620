@@ -37,6 +37,12 @@ def get_japanese_emoticon(file_path_two, english_emoticon)
     end
   end
   
+  if var_response == nil
+    
+    return "Sorry, that emoticon was not found"
+    
+  end
+  
   
   # code goes here
 end
