@@ -31,7 +31,7 @@ def get_japanese_emoticon(file_path_two, english_emoticon)
       
       if drawing == english_emoticon
         
-        return language
+        return library[emotion][:japanese]
         
       end
     end
