@@ -13,7 +13,7 @@ def load_library(file_path)
   
   end
 
-  puts emoticon_lib
+  # puts emoticon_lib
 
   emoticon_lib
  
